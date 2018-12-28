@@ -66,6 +66,9 @@ section {
   padding: 30px 0 10px 0;
   margin-bottom:  30px;
 }
+.vertical-heading-3 {
+  margin: 50px 0 70px 0;
+}
 
 /*===================================
               preloader
@@ -171,8 +174,31 @@ display: table-cell;
 /*===================================
               About
 ===================================*/
+/* Right side */
 #about-01 {
-  background-color: #f4f4f4;
+  background-color: #fff;
+}
+#about-01 h1 {
+  margin: 0 0 30px 0;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid #22eaaa;
+  display: inline-block;
+}
+#profile-left {
+  margin-top: 30px;
+}
+#profile-left h3   {
+  font-weight: 100;
+  margin-top: 30px;
+}
+#profile-left p {
+  margin-top: 30px;
+}
+#profile-left span {
+  color: #22eaaa;
 }
 #profile-left img {
   display: inline-block;
@@ -187,14 +213,100 @@ display: table-cell;
 #profile-right p {
   font-size: 14px;
 }
-/* Right side */
 
+/* Profile Left side */
+.hexagon {
+  transform: translateX(180px);
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+}
+.hexagon::before {
+  display: block;
+  padding-top: 86.602540378%;  /*  2√3 / 4 x 100  */
+  content: '';
+}
+.hexagon__inner-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: rotate(60deg);
+}
+.hexagon__inner-2 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: rotate(60deg);
+}
+.hexagon__inner-3 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-120deg);
+}
+.hexagon__inner-image {
+  width: 100%;
+  height: 100%;
+  background: url(../img/me2.jpg) center / cover no-repeat;
+}
 /* Left side */
+
 #skill-experiences .vertical-heading h2 {
   border-bottom:  1px solid #22eaaa;
+  margin: 25px 0 25px 0;
+}
+
+/* About-02 */
+#about-02 {
+  background: #f4f4f4;
 }
 
 /* Skill Experience */
 #skill-experiences {
   margin-top: 30px;
+}
+#skill-experiences h5 {
+  color: #212226;
+  font-weight: 200;
+}
+#skill-experiences h3 {
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+.vertical-heading-3 h2 {
+  font-weight: 200;
+}
+.vertical-heading-3 h2 span {
+  color: #22eaaa
+}
+/* Progress bar */
+.progress-indicator>li.completed .bubble, .progress-indicator>li.completed .bubble:after, .progress-indicator>li.completed .bubble:before {
+  background-color: #22eaaa;
+}
+.skill {
+  margin: 30px 0 30px 0px;
+}
+.skill h5 {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 6px;
+}
+.w3-container{
+  position: relative;
+}
+.progress-bar {
+  color: #22eaaa;
+}
+.w3-container span {
+  color: #fff;
+  font-weight: 100;
+  position: absolute;
+  padding-top: 3px;
+  text-align: right;
+}
+.w3-2017-neutral-gray, .w3-2017-neutral-grey {
+  background-color: #f1f1f1!important;
 }
