@@ -35,12 +35,12 @@ $(window).on('load', function () {
     $(this).addClass('active');
   });
 });
-
-
-var elem = document.getElementById('elem');
-elem.addEventListener('click',function(){
-  anime({
-    targets: elem,
-    translateX: 250
-  })
-})
+/*===================================
+              Stats
+===================================*/
+$(function() {
+    $(".counter").counterUp({
+          delay: 10,
+          time: 2000
+      });
+});
