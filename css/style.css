@@ -127,7 +127,7 @@ display: table-cell;
 #home-content-inner h3 {
   color: #fff;
   font-size: 26px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 10px;
   margin: 0 0 16px 0;
 }
@@ -184,14 +184,15 @@ display: table-cell;
   text-transform: uppercase;
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
-  border-bottom: 1px solid #22eaaa;
+  border-bottom: 2px solid #22eaaa;
   display: inline-block;
+  font-weight: 500;
 }
 #profile-left {
   margin-top: 30px;
 }
 #profile-left h3   {
-  font-weight: 100;
+  font-weight: 200;
   margin-top: 30px;
 }
 #profile-left p {
@@ -289,6 +290,11 @@ display: table-cell;
 .skill {
   margin: 30px 0 30px 0px;
 }
+.skill .w3-2017-neutral-grey span {
+  color: #212226;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
 .skill h5 {
   font-size: 15px;
   font-weight: 300;
@@ -309,4 +315,111 @@ display: table-cell;
 }
 .w3-2017-neutral-gray, .w3-2017-neutral-grey {
   background-color: #f1f1f1!important;
+}
+/*===================================
+              Portfolio
+===================================*/
+#isotope-container .col-lg-4 {
+  padding: 0;
+}
+#portfolio-wrapper h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#portfolio {
+  background: #f4f4f4;
+}
+.portfolio-item {
+  overflow: hidden;
+  position: relative;
+}
+#portfolio .vertical-heading h2 {
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  border-bottom: 2px solid #22eaaa;
+}
+#portfolio .content-box-md {
+  padding-bottom: 50px;
+}
+
+/* Filter CSS */
+#isotope-filters {
+  margin-bottom: 10px;
+  text-align: center;
+}
+#isotope-filters button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #212226;
+  background:transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-right: 40px;
+  outline: 0;
+}
+#isotope-filters button.active span {
+  color: #22eaaa;
+  border-bottom: 3px solid #22eaaa;
+}
+#isotope-filters button span {
+  display: block;
+  padding-bottom: 5px;
+  transition: border-color .4s ease-in-out;
+}
+/* Filter box */
+.wrapper{
+ padding: 20px;
+}
+.square{
+  background-color: rgb(90, 135, 255);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/* Overlay Effect */
+.portfolio-item-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(14, 14, 17, 0.9);
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+/* Itme Details Effect */
+.portfolio-item-details {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+.portfolio-item-details h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-item-details  p {
+  color: #22eaaa;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-item .btn {
+  background: #22eaaa;
+  margin-top: 60px;
+}
+.portfolio-item:hover .portfolio-item-overlay {
+  opacity: 1;
 }

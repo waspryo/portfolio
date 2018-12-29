@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="css/w3/w3-colors-food.css">
   <!-- W3 CSS -->
   <link rel="stylesheet" href="css/w3/w3.css">
+  <!-- Anime CSS -->
+  <link rel="stylesheet" href="css/anime/anime.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
   <!-- Custom CSS -->
@@ -133,9 +135,149 @@
   </section>
 
 
-  <section>
+ <section id="portfolio">
+   <div class="content-box-md">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12 text-center">
+           <div class="vertical-heading">
+             <h2>Portfolio</h2>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-12">
+         <div id="isotope-filters">
+           <!-- Portfolio Items Filter -->
+           <div class="button-group filter-button-group">
+             <button class="btn active" data-filter="*"><span>show all</span></button>
+             <button class="btn" data-filter=".htmlcss"><span>HTML/CSS</span></button>
+             <button class="btn" data-filter=".javascript"><span>JavaScript</span></button>
+             <button class="btn" data-filter=".rubyonrails"><span>Ruby on Rails</span></button>
+             <button class="btn" data-filter=".react"><span>React</span></button>
+             <button class="btn" data-filter=".mobile"><span>Mobile Android</span></button>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div id="isotope-container">
+       <div class="col-lg-4 rubyonrails">
+         <!-- Portfolio Item 01 -->
+         <div class="portfolio-item">
+           <a href="./img/eatour.jpg" title="Rails App"></a>
+           <img src="./img/eatour.jpg" class="img-responsive" alt="portfolio 01">
+           <div class="portfolio-item-overlay">
+             <div class="portfolio-item-details text-center">
+               <!-- Item Header -->
+               <h3>EaTour</h3>
+               <!-- Item Strips -->
+               <span></span>
+               <!-- Item Description -->
+               <p>Ruby/Rails</p>
+               <a class="btn btn-primary" href="https://eatour.herokuapp.com/" role="button">SEE MORE</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-4 rubyonrails react mobile">
+         <!-- Portfolio Item 02 -->
+         <div class="portfolio-item">
+           <a href="./img/mobile.jpg" title="Mobile App"></a>
+           <img src="./img/mobile.jpg" class="img-responsive" alt="portfolio 02">
+           <div class="portfolio-item-overlay">
+             <div class="portfolio-item-details text-center">
+               <!-- Item Header -->
+               <h3>EaTour Mobile</h3>
+               <!-- Item Strips -->
+               <span></span>
+               <!-- Item Description -->
+               <p>React + Android Studio</p>
+               <a class="btn btn-primary" href="#" role="button">SEE MORE</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-4 htmlcss javascript">
+         <!-- Portfolio Item 03 -->
+         <div class="portfolio-item">
+           <a href="./img/solo.jp" title="Web Design"></a>
+           <img src="./img/solo.jpg" class="img-responsive" alt="portfolio 03">
+           <div class="portfolio-item-overlay">
+             <div class="portfolio-item-details text-center">
+               <!-- Item Header -->
+               <h3>Web Design</h3>
+               <!-- Item Strips -->
+               <span></span>
+               <!-- Item Description -->
+               <p>HTML/CSS + JavaScript</p>
+               <a class="btn btn-primary" href="https://waspryo.github.io/" role="button">SEE MORE</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-4 htmlcss javascript">
+         <!-- Portfolio Item 04 -->
+         <div class="portfolio-item">
+           <a href="./img/design.jpg" title="Web Design"></a>
+           <img src="./img/design.jpg" class="img-responsive" alt="portfolio 04">
+           <div class="portfolio-item-overlay">
+             <div class="portfolio-item-details text-center">
+               <!-- Item Header -->
+               <h3>Web Design</h3>
+               <!-- Item Strips -->
+               <span></span>
+               <!-- Item Description -->
+               <p>HTML/CSS + JavaScript</p>
+              <a class="btn btn-primary" href="https://waspryo.github.io/" role="button">SEE MORE</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-4 htmlcss javascript">
+         <!-- Portfolio Item 05 -->
+         <div class="portfolio-item">
+           <a href="./img/LP.png" title="Rails App"></a>
+           <img src="./img/LP.png" class="img-responsive" alt="portfolio 05">
+           <div class="portfolio-item-overlay">
+             <div class="portfolio-item-details text-center">
+               <!-- Item Header -->
+               <h3>LP</h3>
+               <!-- Item Strips -->
+               <span></span>
+               <!-- Item Description -->
+               <p>HTML/CSS, JavaScript</p>
+               <a class="btn btn-primary" href="#" role="button">SEE MORE</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-4 htmlcss javascript">
+         <!-- Portfolio Item 06 -->
+         <div class="portfolio-item">
+           <a href="./img/web.jpg" title="Rails App"></a>
+           <img src="./img/web.jpg" class="img-responsive" alt="portfolio 06">
+           <div class="portfolio-item-overlay">
+             <div class="portfolio-item-details text-center">
+               <!-- Item Header -->
+               <h3>LP</h3>
+               <!-- Item Strips -->
+               <span></span>
+               <!-- Item Description -->
+               <p>HTML/CSS, JavaScript</p>
+               <a class="btn btn-primary" href="#" role="button">SEE MORE</a>
+             </div>
+           </div>
+         </div>
+       </div>
 
-  </section>
+     </div>
+
+   </div>
+ </section>
+
+ <div class="wrapper">
+   <div class="square" id="elem"></div>
+ </div>
+
 
 
 
@@ -155,9 +297,12 @@
 
   <!-- JQuery -->
   <script src="./js/jquery.js"></script>
+  <!-- Anime JS -->
+  <script src="./js/anime/anime.js"></script>
   <!-- Bootstrap JS -->
-  <script src="./js/bootstrap/bootstrap.js">
-  </script>
+  <script src="./js/bootstrap/bootstrap.js"></script>
+  <!-- Isotop -->
+  <script src="./js/isotope/isotope.pkgd.min.js"></script>
   <!-- Custom JS -->
   <script src="./js/script.js"></script>
 
