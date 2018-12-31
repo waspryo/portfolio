@@ -44,3 +44,40 @@ $(function() {
           time: 2000
       });
 });
+
+
+$(function() {
+
+  $("#progress-elements").waypoint(function() {
+
+    $(".stats-item").each(function() {
+      $(this).animate({
+        width: $(this).attr("aria-valuenow") + "%"
+      }, 2000);
+    });
+
+    this.destroy();
+  }, {
+    offset: 'bottom-in-view'
+  });
+
+});
+/*===================================
+              Animation
+===================================*/
+// animate on scroll
+$(function() {
+  new WOW().init();
+});
+
+// Home animation on page load
+$(window).on('load', function () {
+  $("#home-heading-1").addClass("animated fadeInDown");
+  $("#home-heading-2").addClass("animated fadeInLeft");
+  $("#home-intro").addClass("animated zoomIn");
+  $("#heading-about").addClass("animated zoomIn");
+  $("#profile-left").addClass("animated slideInLeft");
+  $("#profile-right").addClass("animated slideInRight");
+  $("#heading-portfolio").addClass("animated fadeInDown");
+  $("#heading-experience").addClass("animated fadeInDown");
+});

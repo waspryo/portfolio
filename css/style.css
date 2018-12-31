@@ -163,6 +163,11 @@ section {
 #profile-right h3 span {
   color: #22eaaa;
 }
+#home-heading-1 {
+  font-size: 28px;
+  color: #fff;
+  display: inline-block;
+}
 
 /*===================================
               Arrow Down
@@ -564,4 +569,40 @@ footer i {
   color: #22eaaa;
   font-size: 28px;
   padding-right: 14px;
+}
+
+/*===================================
+             Animation
+===================================*/
+#home-heading-1 {
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+}
+#home-heading-2 {
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+#home-intro {
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+}
+#heading-about {
+  animation-duration: 1.5s;
+  animation-delay: 2.5s;
+}
+#profile-left {
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+}
+#profile-right {
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+}
+#heading-portfolio {
+  animation-duration: 2.5s;
+  animation-delay: 5.5s;
+}
+#heading-experience {
+  animation-duration: 2.5s;
+  animation-delay: 6.5s;
 }
