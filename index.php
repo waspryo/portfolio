@@ -183,7 +183,7 @@
                 <span></span>
                 <!-- Item Description -->
                 <p>Ruby/Rails</p>
-                <a class="btn btn-primary" href="https://eatour.herokuapp.com/" role="button">SEE MORE</a>
+                <a class="btn btn-primary" href="https://eatour.herokuapp.com/" target="_blank" role="button">SEE MORE</a>
               </div>
             </div>
           </div>
@@ -219,7 +219,7 @@
                 <span></span>
                 <!-- Item Description -->
                 <p>HTML/CSS + JavaScript</p>
-                <a class="btn btn-primary" href="https://waspryo.github.io/" role="button">SEE MORE</a>
+                <a class="btn btn-primary" href="https://waspryo.github.io/"  target="_blank" role="button">SEE MORE</a>
               </div>
             </div>
           </div>
@@ -237,7 +237,7 @@
                 <span></span>
                 <!-- Item Description -->
                 <p>HTML/CSS + JavaScript</p>
-                <a class="btn btn-primary" href="https://waspryo.github.io/" role="button">SEE MORE</a>
+                <a class="btn btn-primary" href="https://waspryo.github.io/" target="_blank" role="button">SEE MORE</a>
               </div>
             </div>
           </div>
@@ -273,7 +273,7 @@
                 <span></span>
                 <!-- Item Description -->
                 <p>Ruby/Rails</p>
-                <a class="btn btn-primary" href="https://secure-escarpment-51046.herokuapp.com/" role="button">SEE MORE</a>
+                <a class="btn btn-primary" href="https://secure-escarpment-51046.herokuapp.com/" target="_blank" role="button">SEE MORE</a>
               </div>
             </div>
           </div>
