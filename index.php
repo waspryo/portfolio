@@ -349,8 +349,9 @@
             <p>Copyright &copy; 2019 All Rights Reserved By <span>RYO Inc.</span></p>
           </div>
           <div class="col-md-12">
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ryo.sugimoto.376"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/wasp_LEO"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/ryo3752/"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
