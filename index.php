@@ -90,7 +90,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-12 text-center">
+                  <div class="col-md-12">
                     <h3><span>&lt;div&gt;</span>My <strong>Story</strong><span>&lt;/div&gt;</span></h3>
                     <p>2016年10月にオーストラリアのV&V Walshへ入社し、2018年8月まで在籍していました。
                       その後半年間のプログラミングスクールでフロントからサーバサイドまで学びオリジナルアプリを個人で製作。
@@ -138,6 +138,12 @@
                     </div><br>
                     <div class="w3-2017-neutral-grey">
                       <div class="w3-container w3-food-spearmint w3-center" style="width:60%; height:28px;"><span>Illustrator</span></div>
+                    </div><br>
+                    <div class="w3-2017-neutral-grey">
+                      <div class="w3-container w3-food-spearmint w3-center" style="width:63%; height:28px;"><span>Marketing</span></div>
+                    </div><br>
+                    <div class="w3-2017-neutral-grey">
+                      <div class="w3-container w3-food-spearmint w3-center" style="width:120%; height:28px;"><span>Passion</span></div>
                     </div><br>
 
                   </div>
