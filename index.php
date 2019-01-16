@@ -92,8 +92,18 @@
                 <div class="row">
                   <div class="col-md-12 text-center">
                     <h3><span>&lt;div&gt;</span>My <strong>Story</strong><span>&lt;/div&gt;</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>2016年10月にオーストラリアのV&V Walshへ入社し、2018年8月まで在籍していました。
+                      その後半年間のプログラミングスクールでフロントからサーバサイドまで学びオリジナルアプリを個人で製作。
+                      現在、東京都を勤務地として希望しています。 <br>
+
+                      職務経歴 <br>
+                      【会社名】V&V Walsh <br>
+                      【勤務期間】2016年10月〜2018年8月 <br>
+
+                      【最終学歴】サレジオ工業高等専門学校デザイン学科　2012年3月卒業<br>
+                      【所有スキル】HTML/CSS, JavaScript, Ruby/Rails, MySQL, git, AWS3, React, Android App <br>
+                      【Github】https://github.com/waspryo <br>
+                      【ポートフォリオサイト】https://boiling-stream-14086.herokuapp.com/ </p>
                   </div>
                 </div>
               </div>
@@ -121,7 +131,7 @@
                       <div class="w3-container w3-food-spearmint w3-center" style="width:45%; height:28px;"><span>React</span></div>
                     </div><br>
                     <div class="w3-2017-neutral-grey">
-                      <div class="w3-container w3-food-spearmint w3-center" style="width:50%; height:28px;"><span>UI Design</span></div>
+                      <div class="w3-container w3-food-spearmint w3-center" style="width:50%; height:28px;"><span>Design</span></div>
                     </div><br>
                     <div class="w3-2017-neutral-grey">
                       <div class="w3-container w3-food-spearmint w3-center" style="width:60%; height:28px;"><span>Photoshop</span></div>
@@ -219,7 +229,7 @@
                 <span></span>
                 <!-- Item Description -->
                 <p>HTML/CSS + JavaScript</p>
-                <a class="btn btn-primary" href="https://waspryo.github.io/"  target="_blank" role="button">SEE MORE</a>
+                <a class="btn btn-primary" href="https://waspryo.github.io/" target="_blank" role="button">SEE MORE</a>
               </div>
             </div>
           </div>
