@@ -131,13 +131,13 @@
                       <div class="w3-container w3-food-spearmint w3-center" style="width:45%; height:28px;"><span>React</span></div>
                     </div><br>
                     <div class="w3-2017-neutral-grey">
-                      <div class="w3-container w3-food-spearmint w3-center" style="width:50%; height:28px;"><span>Design</span></div>
+                      <div class="w3-container w3-food-spearmint w3-center" style="width:70%; height:28px;"><span>Design</span></div>
                     </div><br>
                     <div class="w3-2017-neutral-grey">
-                      <div class="w3-container w3-food-spearmint w3-center" style="width:60%; height:28px;"><span>Photoshop</span></div>
+                      <div class="w3-container w3-food-spearmint w3-center" style="width:65%; height:28px;"><span>Photoshop</span></div>
                     </div><br>
                     <div class="w3-2017-neutral-grey">
-                      <div class="w3-container w3-food-spearmint w3-center" style="width:40%; height:28px;"><span>Illustrator</span></div>
+                      <div class="w3-container w3-food-spearmint w3-center" style="width:60%; height:28px;"><span>Illustrator</span></div>
                     </div><br>
 
                   </div>
