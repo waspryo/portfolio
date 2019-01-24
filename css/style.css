@@ -441,7 +441,11 @@ section {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
+.portfolio-item img {
+  height: 350px;
+  width: 600px;
 
+}
 /* Itme Details Effect */
 .portfolio-item-details {
   position: absolute;
